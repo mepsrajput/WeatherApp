@@ -58,7 +58,7 @@ div.note {
 	
 	.heading {
 		font-size: 35px;
-		margin: 40px auto 25px auto;
+		margin: 40px auto 35px auto;
 	}
 	
 	#city, #country{
@@ -67,5 +67,9 @@ div.note {
 	
 	.tempDetails, #desc, #temp {
 		font-size: 20px;
+	}
+	
+	.footer {
+	margin-top: 35px;
 	}
 }
