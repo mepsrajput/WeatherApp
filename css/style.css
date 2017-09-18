@@ -1,4 +1,17 @@
-
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+	.heading {
+		  font-size: 50px;
+	}
+	#city, #country{
+		font-size: 25px;
+	}
+	.tempDetails, #desc, #temp {
+		font-size: 20px;
+	}
+}
 
 .heading {
   font-size: 80px;
