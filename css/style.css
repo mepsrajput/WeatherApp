@@ -9,7 +9,6 @@ font-family: tahoma, helvetica;
 
 a:link, a:visited{
 	text-decoration: none;
-	color:pink;
 }
 a:hover, a:active {
 	text-decoration: none;
@@ -33,9 +32,9 @@ a:hover, a:active {
   margin-top: 25px;
 }
 
-.footer a:hover{
+.footer a:hover, a:link, a:visited, a:active{
 	text-decoration:none;
-	color: lightpink;
+	color: #ff3755;
 }
 
 span#notetext {
