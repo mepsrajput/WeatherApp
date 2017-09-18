@@ -1,0 +1,50 @@
+
+
+.heading {
+  font-size: 80px;
+font-family: tahoma, helvetica;
+  margin: 70px auto 50px auto;
+}
+
+
+a:link, a:visited{
+	text-decoration: none;
+	color:pink;
+}
+a:hover, a:active {
+	text-decoration: none;
+	color:white;
+}
+
+#city, #country{
+   font-size: 30px; color: #6495ED; 
+
+}
+
+.tempDetails, #desc, #temp {
+  font-size: 25px;
+  
+}
+#desc {
+  color: #7FFFD4
+}	
+
+.footer {
+  margin-top: 25px;
+}
+
+.footer a:hover{
+	text-decoration:none;
+	color: lightpink;
+}
+
+span#notetext {
+  color: red;
+  text-decoration: underline;
+}
+
+div.note {
+  color: #00cc00;
+  font-size:15px;
+  margin-top:80px;
+}

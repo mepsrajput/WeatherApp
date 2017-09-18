@@ -1,0 +1,121 @@
+<html>
+<head>
+        <title>Weather App by Pradeep Singh</title>
+		
+		<meta name="description" content="This Weather App generates local weather details by using html5 geolocation and an API">
+    
+		<meta name="keywords" content="Weather App, Current Weather, Pradeep Singh, Pradeep's Weather App">
+		
+		<meta name="author" content="Pradeep Singh">
+		
+		<meta name="robots" content="index, follow">
+        
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		
+				<!-- bootstrap and jquery -->
+                
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            
+        <!-- google fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/script.js">
+</script>		
+<style>
+body {
+	background-color: #262626;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+
+</style>
+		
+</head>
+
+
+<body>
+	
+	<div class="row text-center main">
+		<div class="col-lg-12 col-xs-12">
+			<div class="content">
+        <div class="heading">
+          The Weather App
+        </div>
+        <span id="city">
+        </span>
+        <span id="country">
+        </span>
+        <div class="tempDetails">
+        <span id="temp">
+        </span>
+        <span class="temp" id="tempunit">
+        </span>
+        </div>
+        <div id="desc">
+        </div>
+        <div class="icons">
+          <div class="text-center all-icon">
+            <div class="icon sun-shower hide">
+              <div class="cloud"></div>
+              <div class="sun">
+                <div class="rays"></div>
+              </div>
+              <div class="rain"></div>
+            </div>
+            <div class="icon thunder-storm hide thunderstom">
+              <div class="cloud"></div>
+              <div class="lightning">
+                <div class="bolt"></div>
+                <div class="bolt"></div>
+              </div>
+            </div>
+            <div class="icon cloudy hide clouds">
+              <div class="cloud"><i class="material-icons" style="font-size:50px;color:lightgray"></i>
+</div>
+              <div class="cloud"></div>
+            </div>
+            <div class="icon flurries hide snow">
+              <div class="cloud"></div>
+              <div class="snow">
+                <div class="flake"></div>
+                <div class="flake"></div>
+              </div>
+            </div>
+            <div class="icon sunny hide clear">
+              <div class="sun">
+                <div class="rays"></div>
+              </div>
+            </div>
+            <div class="icon rainy hide rain">
+              <div class="cloud"></div>
+              <div class="rain"></div>
+            </div>
+          </div>        
+        </div>
+        
+				<div class="footer text-center"> by <a href="http://mepsrajput.github.io/">Pradeep Singh</a>
+				</div>
+			</div>
+		</div>
+	</div>
+			<div class="note text-center"><span id="notetext">Note:</span> You must allow this browser to access your location</div>
+
+ </body>
+
+</html>
