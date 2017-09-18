@@ -1,17 +1,5 @@
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
-    }
-	.heading {
-		  font-size: 50px;
-	}
-	#city, #country{
-		font-size: 25px;
-	}
-	.tempDetails, #desc, #temp {
-		font-size: 20px;
-	}
-}
+
+
 
 .heading {
   font-size: 80px;
@@ -59,4 +47,25 @@ div.note {
   color: #00cc00;
   font-size:15px;
   margin-top:80px;
+}
+
+
+@media only screen and (max-width: 500px) {
+	
+    body {
+        background-color: lightblue;
+    }
+	
+	.heading {
+		font-size: 35px;
+		margin: 40px auto 25px auto;
+	}
+	
+	#city, #country{
+		font-size: 25px;
+	}
+	
+	.tempDetails, #desc, #temp {
+		font-size: 20px;
+	}
 }
